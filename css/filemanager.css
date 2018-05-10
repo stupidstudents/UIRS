@@ -42,6 +42,8 @@ body{
   position: relative;
   height: 100%;
   color: #797979;
+  text-align: center;
+  line-height: 30px;
 }
 
 
@@ -79,6 +81,7 @@ body{
     border-radius: 7px 7px 1px 1px;
     position: relative;
 
+
   }
 
   .contentPanel{
@@ -98,9 +101,9 @@ body{
   }
 
   .block{
-    height: 115px;
-    width: 90px;
-    background-image: url('PDF.png');
+    display: inline-block;
+    height: 122px;
+    width: 100px;
     background-size: contain;
     margin: 1em;
     background-repeat: no-repeat;
@@ -108,11 +111,33 @@ body{
   }
 
   .TextOfBlock{
+    width: inherit;
     overflow: hidden;
     text-overflow: ellipsis;
     position: absolute;
     bottom: 0%;
+    text-align: center;
 
+  }
+
+  .doc{
+    background-image: url('DOC-X.png');
+  }
+
+  .pdf{
+    background-image: url('PDF.png');
+  }
+
+  .xls{
+    background-image: url('XLS.png');
+  }
+
+  .kartinka{
+    background-image: url('imagee.png');
+  }
+
+  .folder{
+    background-image: url('folder.png');
   }
 
   .bottomPanel{
