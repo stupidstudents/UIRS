@@ -140,6 +140,10 @@ body{
     background-image: url('folder.png');
   }
 
+  .unknow{
+    background-image: url('unknow.png');
+  }
+
   .bottomPanel{
     height: 35px;
     width: 848px;
